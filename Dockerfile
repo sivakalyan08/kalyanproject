@@ -2,7 +2,7 @@
 FROM ubuntu:16.04
 
 # Maintainer of this Image. 
-MAINTAINER Amit Vashist <amitvashist7@outlook.com>
+MAINTAINER sivakalyan <kalyannagineni926@gmail.com>
 
 # Update the APT Repo
 RUN apt-get update 
