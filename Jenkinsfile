@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("kalyannagineni/team")
+       app = docker build https://github.com/docker/rootfs.git#container:docker
     }
 
     stage('Test image') {
